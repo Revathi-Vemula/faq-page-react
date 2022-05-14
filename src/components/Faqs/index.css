@@ -1,0 +1,38 @@
+.app-container {
+  background-color: #f1f5f8;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .faq-container {
+    padding: 20px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+}
+
+.heading {
+  color: #cb8805;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Consolas';
+  text-align: center;
+}
+
+.faq-list-container {
+  list-style-type: none;
+  padding-left: 0;
+}
